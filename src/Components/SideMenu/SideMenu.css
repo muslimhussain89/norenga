@@ -1,0 +1,40 @@
+.Side-Menu-Main {
+    width: 14%;
+    height: 92vh;
+    border-right: 1px solid #d6dee5;
+    overflow-y: auto;
+}
+
+.SideMenuButtonWrapper {
+    display: flex;
+    flex-direction: column;
+}
+.SideMenuButtonWrapper .MenuMainButton button
+{
+    border-bottom: 1px solid #DDD9D9;
+}
+.SideMenuButtonWrapper .MenuMainButton
+{
+    text-align: center;
+}
+.SideMenuButtonWrapper .MenuMainButton:hover,
+.SideMenuButtonWrapper .MenuMainButton button:hover {
+    background-color: #F2FFF8;
+
+}
+.SideMenuButtonWrapper .MenuMainButton button
+{
+    width: 92%;
+}
+.Sub-Menu
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SubMenuItem
+{
+    width: 80%;
+    border-bottom: 1px solid #DDD9D9;
+    padding: 1rem 0rem;
+}

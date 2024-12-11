@@ -1,0 +1,18 @@
+.Navbar-main-sec
+{
+    padding: 2rem;
+    border-bottom: 1px solid #d6dee5;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Navbar-Left-Sec
+{
+    display: flex;
+    align-items: center;
+}
+.Navbar-Right-Sec button
+{
+    margin-left: 2rem;
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+select,
+input,
+label,
+span,
+button {
+  font-family: 'Space Grotesk', sans-serif !important;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+@media screen and (max-width: 350px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+/* Styles for mobile */
+@media (min-width: 350px) {
+    html {
+        font-size: 48%;
+    }
+}
+
+/* Styles for small tablets */
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 52%;
+    }
+}
+
+/* Styles for tablets */
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+/* Styles for laptops and desktops */
+@media screen and (min-width: 1400px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+/* Styles for large laptops and desktops */
+@media screen and (min-width: 1920px) {
+    html {
+        font-size: 72.5%;
+    }
+}
+
+/* Styles for large screens */
+@media screen and (min-width: 2560px) {
+    html {
+        font-size: 76.5%;
+    }
+}

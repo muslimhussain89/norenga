@@ -1,0 +1,183 @@
+.Topwrapper
+{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.BreadCrumbs
+{
+    display: flex;
+    align-items: center;
+}
+.RightSec button:nth-child(2)
+{
+border-top-left-radius: 12px;
+border-bottom-left-radius: 12px;
+margin-left: 3rem;
+}
+.RightSec button:nth-child(3)
+{
+border-top-right-radius: 12px;
+border-bottom-right-radius: 12px;
+margin-left: 1px;
+}
+
+.InvoiceDetails
+{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.InvoiceDetailsLeft
+{
+    width: 25%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.CustomerHead
+{
+    border-bottom: 1px solid #ccc;
+    padding: 1.5rem 2rem;
+}
+.SearchInput input
+{
+    width: 96.8%;
+    padding: 0.5rem 1% 1rem 1%;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.CustomerDetailsSection
+{
+    padding: 2rem;
+}
+.CustomerDetails
+{
+    margin-top: 2rem;
+    padding: 2rem;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+}
+.EmailButton
+{
+    text-align: end;
+    margin-top: 2rem;
+}
+
+.InvoiceDetailsRight
+{
+    width: 72%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.react-tabs__tab-list
+{
+    border: none !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+    padding-bottom: 0rem !important;
+    background-color: #DAFFEB;
+
+}
+.react-tabs__tab
+{
+    border: none !important;
+    padding: 1rem 4rem !important;
+    border-radius: 0px !important;
+    border-bottom: none !important;
+
+    
+
+}
+.react-tabs__tab-list .react-tabs__tab:nth-child(1)
+{
+    border-top-left-radius: 8px !important;
+}
+.react-tabs__tab:focus:after
+{
+    content: none !important;
+}
+
+.FromData
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.LeftCol,
+.RightCol
+{
+    width: 48%;
+} 
+.FromField
+{
+    margin: 0rem 0rem 2rem 0rem;
+    display: flex;
+}
+.FromField label
+{
+    margin-right: 4rem;
+    width: 26% !important;
+    display: inline-block;
+}
+.FromField input,
+.FromField label
+{
+    font-size: 1.6rem;
+}
+.FromField input,
+.FromField select
+{
+    padding: 1rem 0.6rem;
+    width: 60%;
+    border: 1px solid #d6dee5;
+    border-radius: 6px;
+    font-weight: 400;
+}
+.FromField select
+{
+    width: 62.5%;
+}
+
+input[type="date"].disabled,
+select.disabled,
+input.disabled {
+    pointer-events: none; /* Prevent interaction */
+    background-color: #e9ecef; /* Match disabled style */
+    color: #6c757d; /* Match disabled text color */
+  }
+
+
+
+
+
+/* Scrollbar width */
+.InvoiceDetailsRight ::-webkit-scrollbar {
+    width: 5px; /* Width for vertical scrollbar */
+    height: 8px; /* Height for horizontal scrollbar */
+  }
+  
+  /* Track (background) */
+  .InvoiceDetailsRight ::-webkit-scrollbar-track {
+    background: #AAFFD2;
+    border-radius: 10px;
+    margin: 10rem !important;
+
+  }
+  
+  /* Thumb (scroll handle) */
+  .InvoiceDetailsRight ::-webkit-scrollbar-thumb {
+    background: #2CAF6A;
+    border-radius: 10px;
+}
+  
+  /* Thumb on hover */
+  .InvoiceDetailsRight ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
